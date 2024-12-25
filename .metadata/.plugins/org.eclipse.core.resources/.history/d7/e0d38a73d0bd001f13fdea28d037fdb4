@@ -1,0 +1,6 @@
+package com.sathya.springboot.repository;
+
+@Re
+public class ProductRepository {
+
+}

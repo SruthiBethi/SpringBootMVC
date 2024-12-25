@@ -1,0 +1,23 @@
+<html>
+	<body>
+		<h2>Product Form</h2>
+		<form th:action="@{/saveProduct}" th:object="${productModel}" method="post">
+			<label> Product Name:</label>
+			<input type="text" placeholder="Enter ProductName" name="name" th:value="*{name}"><br><br>
+			<p class="errors" th:if="${#fields.hasErrors('name')}" ></p>
+			<label> Product Brand:</label>
+			<input type="text" placeholder="Enter BrandName" name="brand" th:value="*{brand}"><br><br>
+			<label> Product Made In:</label>
+			<input type="text" placeholder="Enter Country Of Origin" name="madeIn" th:value="*{madeIn}"><br><br>
+			<label> Product Price</label>
+			<input type="text" placeholder="Enter Price" name="price" th:value="*{price}"><br><br>
+			<label> Product Quantity:</label>
+			<input type="text" placeholder="Enter Quantity" name="quantity" th:value="*{quantity}"><br><br>
+			<label> Discount Rate:</label>
+		    <input type="text" placeholder="Enter DiscountRate" name="discountRate" th:value="*{discountRate}"><br><br>
+			<button type="submit" >Submit</button>
+			<button type="reset">Reset</button>
+		</form>
+		
+	</body>
+</html>

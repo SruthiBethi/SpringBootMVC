@@ -1,0 +1,23 @@
+package com.tcs.mvc.controller.entity;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+public class EmployeeEntity {
+	
+	private long empId;
+	private String empName;
+	private double salary;
+	private String department;
+	private String role;
+	private double da;
+	private double hra;
+	private double pf;
+
+}

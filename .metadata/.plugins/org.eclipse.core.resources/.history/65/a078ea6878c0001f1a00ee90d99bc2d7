@@ -1,0 +1,46 @@
+<html>
+	<head>
+			<title>Employee Details</title>
+		</head>
+		<body>
+			<div>
+				<table border="1 px">
+					<thead>
+						<tr>
+							<th>Id</th>
+							<th>Employee Name</th>
+							<th>Salary</th>
+							<th>Department</th>
+							<th>Role</th>
+							<th>TA</th>
+							<th>DA</th>
+							<th>HRA</th>
+							<th>PF</th>
+							<th>ESI</th>
+							<th>Total</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="employee:${employees}">
+							<td th:text="${employee.id}"></td>
+							<td th:text="${employee.empName}"></td>
+							<td th:text="${employee.salary}"></td>
+							<td th:text="${employee.department}"></td>
+							<td th:text="${employee.role}"></td>
+							<td th:text="${employee.ta}"></td>
+							<td th:text="${employee.da}"></td>
+							<td th:text="${employee.hra}"></td>
+							<td th:text="${employee.pf}"></td>
+							<td th:text="${employee.esi}"></td>
+							<td th:text="${employee.total}"></td>
+							
+							</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+			
+		</body>
+</html>		

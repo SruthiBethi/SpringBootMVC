@@ -1,0 +1,19 @@
+package com.tcs.mvc.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.tcs.mvc.empmodel.EmployeeModel;
+import com.tcs.mvc.repository.EmployeeRepository;
+
+@Service
+public class EmployeeService {
+	@Autowired
+	EmployeeRepository employeeRepository;
+
+	public void setEmployee(EmployeeModel employeeModel) {
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+<html>
+	<body>
+		<h1 style="color: red;">Employee Form</h1>
+		<form action="@{/saveEmployee}" method="post">
+			<label>Employee Id</label>
+			<input type="number" name="empId" required><br><br>
+			<label>Employee Name</label>
+			<input type="text" name="empName" required>
+			<label>Contact</label>
+			<input type="number" name="contact" required>
+			<label>Department</label>
+			<input type="text" name="department" required>
+			<label>Role</label>
+			<input type="text" name="role" required>
+			
+			<button type="submit">Login</button>
+			
+															
+		</form>
+	</body>
+</html>

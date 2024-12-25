@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Product Details</title>
+	</head>
+	<body>
+		<div>
+			<table>
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Name</th>
+						<th>Brand</th>
+						<th>MadeIn</th>
+						<th>Price</th>
+						<th>Quantity</th>
+						<th>Discount Rate</th>
+						<th>Tax Price</th>
+						<th>Discount Price</th>
+						<th>Offer Price</th>
+						<th>Final Price</th>
+						<th>Stock Value</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+	</body>
+</html>

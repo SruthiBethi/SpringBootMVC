@@ -1,0 +1,2 @@
+spring.application.name=SpringBootMVCExample-1
+server.port=5251

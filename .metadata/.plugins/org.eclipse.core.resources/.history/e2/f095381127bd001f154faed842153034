@@ -1,0 +1,17 @@
+package com.sathya.springboot.modelemployee;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class EmployeeModel {
+	private int empId;
+	private String empName;
+	private long contact;
+	private String department;
+	private String role;
+
+}

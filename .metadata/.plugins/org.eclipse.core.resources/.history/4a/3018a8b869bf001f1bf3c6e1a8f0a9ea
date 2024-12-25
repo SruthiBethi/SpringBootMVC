@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>Search The Product By Id</title>
+	</head>
+	<body>
+		<h2>Search For A Product</h2>
+		<form th:action="@{/searchById}" method="post">
+			
+		</form>
+	</body>
+</html>

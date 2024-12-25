@@ -1,0 +1,10 @@
+package com.tcs.mvc.empmodel;
+
+public class EmployeeModel {
+	private int empId;
+	private String empName;
+	private long contact;
+	private String department;
+	private String role;
+
+}

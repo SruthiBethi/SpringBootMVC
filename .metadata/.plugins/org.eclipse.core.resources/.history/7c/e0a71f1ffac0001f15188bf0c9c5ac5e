@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<titlt>Edit Form</titlt>
+	</head>
+	<body>
+		<form th:action="@{'/editproductsave/'}" th:objects="${productModel}" method="post">
+			<label>Name:</label>
+			<input type="text" name="name" th:field="*{name}"/><br><br>
+		</form>
+	</body>
+</html>

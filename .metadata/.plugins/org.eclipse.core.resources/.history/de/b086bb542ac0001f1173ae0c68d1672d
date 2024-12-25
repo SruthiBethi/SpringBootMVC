@@ -1,0 +1,23 @@
+package com.tcs.mvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.tcs.mvc.empmodel.EmployeeModel;
+
+
+@Controller
+public class EmployeeController {
+	@GetMapping("/addEmployee")
+	public String getEmployee() {
+		return "add-Employee";
+	}
+	@PostMapping("/saveEmployee")
+	public String setEmployee(EmployeeModel employeeModel) {
+		
+		System.out.println(employeeModel);
+		return "save-Employee";
+	}
+
+}

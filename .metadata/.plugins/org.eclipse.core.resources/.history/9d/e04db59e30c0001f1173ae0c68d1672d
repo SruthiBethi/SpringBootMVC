@@ -1,0 +1,21 @@
+<html>
+	<body>
+		<h1 style="color: red;">Employee Form</h1>
+		<form th:action="@{/saveEmployee}" method="post">
+			<label>Employee Id</label>
+			<input type="number" name="empId" required><br><br>
+			<label>Employee Name</label>
+			<input type="text" name="empName" required><br><br>
+			<label>Salary</label>
+			<input type="number" name="salary" required><br><br>
+			<label>Department</label>
+			<input type="text" name="department" required><br><br>
+			<label>Role</label>
+			<input type="text" name="role" required><br><br>
+			
+			<button type="submit">Login</button>
+			
+															
+		</form>
+	</body>
+</html>

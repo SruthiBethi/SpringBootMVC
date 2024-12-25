@@ -1,0 +1,14 @@
+package com.tcs.mvc.controller.entity;
+
+public class EmployeeEntity {
+	
+	private Long empId;
+	private String empName;
+	private double salary;
+	private String department;
+	private String role;
+	private double da;
+	private double hra;
+	private double pf;
+
+}
